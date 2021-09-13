@@ -14,7 +14,7 @@ namespace AwsSqs.Consumidor
         }
         public async Task LerMensagensFila()
         {
-            var urllFila = "URL DA FILA";
+            var urllFila = "URL_DA_FILA";
 
             var request = new ReceiveMessageRequest
             {

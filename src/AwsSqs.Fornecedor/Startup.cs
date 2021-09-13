@@ -26,7 +26,7 @@ namespace AwsSqs.Fornecedor
             {
                 var message = new SendMessageRequest
                 {
-                    QueueUrl = "URL DA FILA",
+                    QueueUrl = "URL_DA_FILA",
                     MessageBody = JsonConvert.SerializeObject(cliente, Formatting.Indented),
 
                 };
